@@ -1,0 +1,36 @@
+
+
+.transaction-item {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgb(244, 235, 235);
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.transaction-item:hover {
+  background-color: #90caf9;
+}
+
+.delete-btn {
+  padding: 5px 15px;
+  background-color: #f44336; 
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f; 
+}
+
+.delete-btn:focus {
+  box-shadow: 0 0 0 2px rgba(239, 20, 5, 0.85); 
+}
